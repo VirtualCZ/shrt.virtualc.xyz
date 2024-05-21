@@ -32,9 +32,14 @@ export default function App() {
           <li key={todo.id}>{todo.content}</li>
         ))}
       </ul>
+
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
       <div>
         🥳 App successfully hosted. Try creating a new todo.
         <br />
+        <button className="btn btn-primary">Hello daisyUI!</button>
         <a href="https://docs.amplify.aws/gen2/start/quickstart/nextjs-pages-router/">
           Review next steps of this tutorial.
         </a>
